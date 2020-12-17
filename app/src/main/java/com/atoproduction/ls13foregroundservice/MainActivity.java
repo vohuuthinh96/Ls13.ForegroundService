@@ -10,6 +10,10 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.widget.AbsListView;
+import android.widget.AdapterView;
+import android.widget.ListAdapter;
+import android.widget.Scroller;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,7 +39,6 @@ public class MainActivity extends AppCompatActivity {
 //
 //        NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
 //        notificationManager.notify(1, builder.build());
-
 
 
         Intent intent1 = new Intent(this, ForeGroundService.class);
